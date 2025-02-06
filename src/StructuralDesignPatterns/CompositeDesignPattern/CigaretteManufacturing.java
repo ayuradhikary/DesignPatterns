@@ -1,7 +1,5 @@
 package StructuralDesignPatterns.CompositeDesignPattern;
 
-import java.io.File;
-
 public class CigaretteManufacturing {
     public static void main(String[] args) {
         CigaretteComponent filter = new Filter();
