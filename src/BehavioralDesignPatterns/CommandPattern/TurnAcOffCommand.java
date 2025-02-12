@@ -7,7 +7,6 @@ public class TurnAcOffCommand implements Icommand{
         this.airConditioner = airConditioner;
     }
 
-
     @Override
     public void execute() {
         airConditioner.turnOffAc();
