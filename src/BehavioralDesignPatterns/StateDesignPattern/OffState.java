@@ -11,6 +11,7 @@ public class OffState implements ACState {
     public void pressPowerButton() {
         System.out.println("AC turned ON.");
         acremoteControl.setState(acremoteControl.getCoolState());
+        System.out.println("AC is default in cooling state");
     }
 
     @Override
