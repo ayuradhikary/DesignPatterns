@@ -7,6 +7,6 @@ public class ACUser {
         remote.pressCoolButton();
         remote.pressCoolButton();
         remote.pressHeatButton();
-        remote.pressHeatButton();
+        remote.pressPowerButton();
     }
 }
